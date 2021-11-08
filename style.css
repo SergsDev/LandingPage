@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.seccionNav{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+}
+
+#hwlogo{
+    height: 70px;
+    width: 70px;
+}
+#Logo {
+    display: flex;
+    margin-right: auto;
+}
+#About{
+    display: flex;
+    padding: 0px 30px 0px 0px;
+    justify-content: center;
+    margin-left: auto;
+}
+#About h3{
+    transition: color 0.2s ease;
+    padding: 10px;
+    cursor: pointer;
+}
+#About h3:hover{
+    color: #3882f6;
+}
+.front{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.front button{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #3882f6;
+    color: white;
+    size: 12px;
+    padding: 6px;
+    border-radius: 6px;
+}
