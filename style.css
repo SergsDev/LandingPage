@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
 }
 .seccionNav{
     display: flex;
@@ -10,17 +11,17 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 20px;
     align-items: center;
 }
 
-#hwlogo{
-    height: 70px;
-    width: 70px;
-}
 #Logo {
     display: flex;
     margin-right: auto;
+}
+#Logo img {
+    height: 70px;
+    width: 70px;
 }
 #About{
     display: flex;
@@ -38,17 +39,89 @@ body{
 }
 .front{
     display: flex;
+    margin: auto;
     flex-direction: row;
     background-color: #1F2937;
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
 }
-
+.front h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.front p {
+    font-size: 18px;
+}
 
 .front button{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #3882f6;
-    color: white;
+    color: #fff;
     size: 12px;
-    padding: 6px;
+    padding: 5px 15px;
+    border-color: #fff;
     border-radius: 6px;
+}
+#imagen-front {
+    width: 500px;
+}
+#imagen-front img {
+    max-width: 80%;
+    height: auto;
+}
+
+.Contenido-info {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+}
+.Contenido-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.Quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px 10px;
+}
+.Quote strong {
+    text-align: right;
+}
+
+.Registro {
+    color: #fff;
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+#texto {
+    text-align: left;
+}
+.Registro Button {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #3882f6;
+    color: #fff;
+    size: 12px;
+    padding: 5px 15px;
+    border-color: #fff;
+    border-radius: 6px;
+}
+
+#Footer {
+    color: #fff;
+    background-color: #1F2937;
+    padding: 20px;
 }
