@@ -1,2 +1,2 @@
 # LandingPage
-Landing page de odin project.
+Mi primer LandingPage basado en uno de los ejercicios de TheOdinProject
